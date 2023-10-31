@@ -17,7 +17,7 @@ export default function Home() {
       <section className="px-20 pt-10 flex justify-between items-start">
         <div className=" pr-20">
           <div className="text-6xl font-bold">
-            <h1 className="leading-2 text-white">I'm a </h1>
+            <h1 className="leading-2 text-white">I&apos;m a </h1>
             <h1 className="text-zinc-500">Sofware Engineer</h1>
           </div>
           <div className="pt-10 tracking-widest text-left text-gray-500 leading-2 pr-20 ">
