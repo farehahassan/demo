@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
 
-import { Container } from '@/components/container'
+import { Container } from '@/components/Container'
 import {
   TwitterIcon,
   InstagramIcon,
