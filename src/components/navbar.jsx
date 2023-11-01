@@ -40,7 +40,7 @@ const Navbar = () => {
     };
 
     return (
-        <header className="flex justify-between text-gray-300 py-4 px-4 md:py-10 md:px-10 w-full fixed bg-black">
+        <header className="flex justify-between text-gray-300 py-4 px-4 md:py-10 md:px-10 w-full  bg-black">
             <div className="font-bold text-3xl">
                 <h1>Fareha Hassan</h1>
             </div>
