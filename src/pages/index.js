@@ -1,24 +1,18 @@
-import Image from "next/image";
-import Navbar from "@/components/navbar";
-// import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Raleway } from "next/font/google";
+
+const inter = Raleway({ subsets: ["latin"] });
 
 export default function Home() { 
-  // const [text] = useTypewriter({
-  //     words: [ 'Software Engineer','Web Developer','Web Desginer', 'App Developer','Flutter Developer'],
-  //     loop: {},
-  //     typeSpeed: 150,
-  //   });
+
   return (
    
-    <>
-      <section className="px-20 pt-10 flex justify-between items-start">
-        <div className=" pr-20">
+      <section className=" home px-20 pt-40 flex justify-between items-start">
+        <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-fu ll md:flex-row pr-4 ">
+        <div >
           <div className="text-6xl font-bold">
             <h1 className="leading-2 text-white">I&apos;m a </h1>
-            <h1 className="text-zinc-500">Sofware Engineer</h1>
+            <h1 className="text-zinc-500 md:text-7xl ">Sofware Engineer</h1>
           </div>
           <div className="pt-10 tracking-widest text-left text-gray-500 leading-2 pr-20 ">
             {" "}
@@ -31,17 +25,18 @@ export default function Home() {
           </div>
           <div className="pt-20 flex ">
             <div className="pr-10" >
-            <button className="bg-white px-10 py-2 text-black outline outline-offset-4 outline-4 outline-white
+            <button className="bg-white px-10 py-2 text-black outline outline-offset-4 outline-4 outline-gray-500
             ">Hire me</button></div>
             <div>
-            <button className="bg-black px-10 py-2 text-white outline outline-offset-4 outline-4 outline-white
+            <button className="bg-black px-10 py-2 text-white outline outline-offset-4 outline-4 outline-gray-500
             ">Resume</button></div>
           </div>
         </div>
-        <div>
+        <div className="pt-10">
           <div className="w-80 h-80 bg-white">image</div>
         </div>
+        </div>
       </section>
-    </>
+    
   );
 }
