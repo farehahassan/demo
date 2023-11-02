@@ -8,8 +8,8 @@ export default function Home() {
 
   return (
    
-      <section className=" home px-20 pr-10 pt-20 flex justify-between items-start">
-        <div className="max-w-screen-lg mx-auto flex items-center justify-center h-fu ll md:flex-row pr-4 ">
+      <section className=" home px-20 pr-10 pt-20 flex flex-col md:flex-col justify-between items-start">
+        <div className="max-w-screen-lg mx-auto flex-col flex items-center justify-center h-fu ll md:flex-row pr-4 ">
         <div >
           <div className="text-6xl font-bold">
             <h1 className="leading-2 text-white">I&apos;m a </h1>
@@ -31,7 +31,7 @@ export default function Home() {
             ">Resume</button></div>
           </div>
         </div>
-        <div className="pt-10 ">
+        <div className="pt-10 flex-col md:pl-6 ">
          <Image 
          src={"/home.png"}
          width={3000}
