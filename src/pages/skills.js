@@ -1,10 +1,13 @@
 import React from 'react';
-
+import card from '@/components/card';
 const skills = () => {
     return (
-        <div>
-            Skills
-        </div>
+        <section  className='pt-20'>
+           <div className='text-white'>
+            hello
+            <card />
+           </div>
+        </section>
     );
 };
 

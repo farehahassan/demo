@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from '@/components/navbar'
 import Hearder from '@/components/header'
 import { Footer } from '@/components/footer'
@@ -16,6 +17,7 @@ export default function Document() {
       <body>
         
         <NextScript />
+        <Analytics />
       </body>
       <Footer/>
     </Html>
