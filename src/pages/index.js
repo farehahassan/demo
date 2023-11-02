@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className="leading-2 text-white">I&apos;m a </h1>
             <h1 className="text-zinc-500 md:text-7xl ">Sofware Engineer</h1>
           </div>
-          <div className="pt-10 tracking-widest text-left text-gray-500 leading-2 pr-20 ">
+          <div className="pt-10 tracking-widest text-left text-gray-500 leading-2 pr-10 ">
             {" "}
             <p>
               {" "}
