@@ -34,8 +34,8 @@ export default function Home() {
         <div className="pt-10 flex-col md:pl-6 ">
          <Image 
          src={"/home.png"}
-         width={3000}
-         height={3000}
+         width={3500}
+         height={3500}
          />
         </div>
         </div>
