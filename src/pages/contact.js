@@ -3,7 +3,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-const contact = () => {
+const Contact = () => {
 
   const [nameInput, setNameInput] = useState("");
   const [emailInput, setEmailInput] = useState("");
@@ -210,4 +210,4 @@ const contact = () => {
     );
 };
 
-export default contact;
+export default Contact;
