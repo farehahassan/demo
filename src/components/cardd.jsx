@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 
-const card = () => {
+const cardd = () => {
     return (
        
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
@@ -22,4 +22,4 @@ const card = () => {
     );
 };
 
-export default card;
+export default cardd;
