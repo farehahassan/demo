@@ -107,7 +107,7 @@ const Contact = () => {
                         Send
                       </button>
                     </form>
-                    <div className='text-white'>Error message</div>
+                    {/* <div className='text-white'>Error message</div> */}
                   </div>
                   <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                     <div className="flex flex-wrap">
