@@ -67,7 +67,7 @@ const skills = () => {
     },
   ];
   return (
-    <section className="pt-10 pr-10">
+    <section className="pt-10 px-10">
       <div className="grid grid-cols-2 pr-10  items-center sm:grid-cols-2 md:grid-cols-5 gap-2">
         {techs.map(({ id, src, title }) => (
           <div
