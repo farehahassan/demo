@@ -67,14 +67,15 @@ const skills = () => {
     },
   ];
   return (
-    <section className="pt-10">
-      <div className="grid grid-cols-2  items-center sm:grid-cols-2 md:grid-cols-5 gap-5">
+    <section className="pt-10"> 
+    <div className="mr-20 pr-30 sm:pr-5 sm:mr-5 md:pr-5 md:mr-5 lg:pr-10 lg:mr-10 lg:gap-2 ">
+      <div className="grid grid-cols-2 items-center sm:grid-cols-2 md:grid-cols-6 gap-10">
         {techs.map(({ id, src, title }) => (
           <div
             key={id}
            
           >
-        <div className="p-10">
+        <div className=" px-10 mr-10">
     <div className={styles.card}>
       <div className={styles.firstcontent}>
      <Image width={200} height={200} src={src} alt={title}/>
@@ -92,7 +93,7 @@ const skills = () => {
       </div>
       {/* <div className="text-white px-20">
         {/* <Car text={title} imageSrc={src} /> 
-      </div> */}
+      </div> */}</div>
     </section>
   );
 };
