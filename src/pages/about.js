@@ -40,7 +40,7 @@ function MailIcon(props) {
 export default function About() {
   return (
     <>
-    <section className='pt-10'>
+    <section className='pt-5'>
       <Head>
         <title>About - Fareha Hassan</title>
         <meta
