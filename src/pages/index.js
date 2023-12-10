@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
    
-      <section className=" home px-20 pr-10 pt-10 flex flex-col md:flex-col justify-between items-start">
+      <section className=" px-20 pr-10 pt-10 flex flex-col md:flex-col justify-between items-start">
         <div className="max-w-screen-lg mx-auto flex-col flex items-center justify-center h-fu ll md:flex-row pr-4 ">
         <div >
           <div className="text-6xl font-bold">
